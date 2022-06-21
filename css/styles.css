@@ -275,6 +275,13 @@ background-image: url(../images/icons_png/antenna.png);
 .main-item:nth-child(2)::before{
     background-image:url(../images/icons_png/astronaut.png);
 }
+.main-item:nth-child(3)::before{
+    background-image: url(../images/icons_png/clock.png);
+
+}
+.main-item:nth-child(4)::before{
+background-image: url(../images/icons_png/diagram.png);
+}
 
 /* Налаштування секції services */
 .services-title {
