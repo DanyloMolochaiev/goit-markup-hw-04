@@ -270,10 +270,11 @@ padding-bottom: 25px;
 }
 
 .main-item:nth-child(1)::before{
-background-image: url(../images/icons_png/antenna.png);
+    background-image: url(../images/icons_png/symbol-defs.svg#icon-antenna);
 }
+
 .main-item:nth-child(2)::before{
-    background-image:url(../images/icons_png/astronaut.png);
+    background-image: url(use);
 }
 .main-item:nth-child(3)::before{
     background-image: url(../images/icons_png/clock.png);
