@@ -117,23 +117,17 @@ color: var(--text-color-black);
 .contact-link {
     display: flex;
     font-family: 'Roboto', sans-serif;
-font-style: normal;
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--text-color-grey);
 align-items: center;
-justify-content: center;
 }
 
-.header-icons {
-    display: flex;
-    fill: currentColor;
+.contact-icon {
+       fill: currentColor;
     margin-right: 10px;
-    align-items: center;
-    justify-content: center;
-}
+      }
 
 /* Зміна кольору при наведенні та зміні фокусу */
 .nav-list a:hover,
@@ -193,11 +187,13 @@ align-items: center;
 .hero {
     background-color: var(--color-dark);
     text-align: center;
+    position: center;
     padding-top: 200px;
     padding-bottom: 200px;
      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-overlay.jpg);  
-    width: 1600px;
+    max-width: 1600px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
@@ -554,6 +550,7 @@ border-radius: 4px;
 .customers-link:hover,
 .customers-link:focus {
     color: var(--text-color-blue);
+    border-color: var(--text-color-blue);
 }
 
 .customers-list .customers-item + .customers-item {
@@ -567,10 +564,13 @@ border-radius: 4px;
     flex-wrap: wrap;
     box-sizing: border-box;
   }
-  .samples-item:hover,
-  .samples-item:focus {
+.samples-link {
+    display: block;
+}
+
+  .samples-link:hover,
+  .samples-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    cursor: pointer;
   }
  
  .samples-item h3 {
